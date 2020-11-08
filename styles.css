@@ -1,9 +1,49 @@
 body{
     background-color: rgb(224, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .main{
     width: 1200px;
     height: auto;
     margin: 0 auto;
+    background-color: aquamarine;
+    display: grid;
+    grid-template: "header" auto
+                    "nav" auto
+                    "presentation" auto
+                    "client" auto
+                    "contact" auto
+                    "footer" auto / 1fr;
+}
+
+.header-section{
+    grid-area: header;
+    background-color: silver;
+}
+
+.nav-section{
+    grid-area: nav;
+    background-color: sienna;
+}
+
+.company-presentation{
+    grid-area: presentation;
+    background-color: skyblue;
+
+}
+
+.client-section{
+    grid-area: client;
+    background-color: springgreen;
+}
+
+.contact-section{
+    grid-area: contact;
+    background-color: wheat;
+}
+
+.footer{
+    grid-area: footer;
     background-color: aquamarine;
 }
