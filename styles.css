@@ -100,6 +100,10 @@ body{
     margin-top: 50px;
 }
 
+#pres-pics p{
+    text-align: center;
+}
+
 #pres-phase-headers{
     display: flex;
     justify-content: center;
