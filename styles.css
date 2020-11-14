@@ -55,20 +55,19 @@ body{
     background-color: silver;
     position: relative;
     height: 450px;
+    display: flex;
+    justify-content: center;
 }
 
 #pres-text{
     position: absolute;
     z-index: 1;
-    width: 800px;
+    width: 1000px;
 }
 #pres-logo{
     position: absolute;
     z-index: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 200px;
+    margin: 50px 0px;
 }
 
 .client-section{
