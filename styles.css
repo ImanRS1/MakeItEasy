@@ -100,6 +100,12 @@ body{
     margin-top: 50px;
 }
 
+#pres-phase-headers{
+    display: flex;
+    justify-content: center;
+    margin: 6px 0px;
+
+}
 
 
 .client-section{
