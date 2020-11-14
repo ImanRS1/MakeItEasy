@@ -104,7 +104,10 @@ body{
     display: flex;
     justify-content: center;
     margin: 6px 0px;
+}
 
+#pres-phase1, #pres-phase2, #pres-phase3{
+    width: 260px;
 }
 
 
