@@ -28,6 +28,10 @@ body{
     align-items: center;
 }
 
+#logo-header{
+    font-weight: lighter;
+}
+
 .nav-section{
     grid-area: nav;
     background-color: sienna;
