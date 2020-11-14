@@ -33,6 +33,14 @@ body{
     background-color: sienna;
 }
 
+.nav-section ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .company-presentation{
     grid-area: presentation;
     background-color: skyblue;
