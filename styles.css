@@ -60,6 +60,7 @@ body{
 #pres-text{
     position: absolute;
     z-index: 1;
+    width: 800px;
 }
 #pres-logo{
     position: absolute;
