@@ -45,10 +45,29 @@ body{
     padding-left: 0;
 }
 
+.nav-section li{
+    padding: 5px 9%;
+    background-color: aquamarine;
+}
+
 .company-presentation{
     grid-area: presentation;
-    background-color: skyblue;
+    background-color: silver;
+    position: relative;
+    height: 450px;
+}
 
+#pres-text{
+    position: absolute;
+    z-index: 1;
+}
+#pres-logo{
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
 }
 
 .client-section{
