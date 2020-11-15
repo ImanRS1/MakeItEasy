@@ -44,7 +44,7 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 99;
     background-image: linear-gradient(to right, rgb(224, 224, 224), rgb(15, 65, 139) , rgb(127, 211, 245), rgb(15, 65, 139), rgb(224, 224, 224));
 }
 
@@ -97,6 +97,7 @@ body{
     opacity: 0.2;
     width: 1900px;
     height: 800px;
+    user-select: none;
 }
 
 .pres-pics img{
@@ -138,7 +139,35 @@ body{
 
 #pres-phase1, #pres-phase2, #pres-phase3{
     width: 260px;
+    z-index: 5;
 }
+
+#phase1-inside-pic{
+    width: 66px;
+    height: 60px;
+    top: 82px;
+    right: 82px;
+    position: absolute;
+    z-index: -1;
+}
+
+.float-effect {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .float-effect:hover, .float-effect:focus, .float-effect:active {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+  }
+  
 
 
 .client-section{
