@@ -1,6 +1,18 @@
 body{
     background-color: rgb(238, 238, 238);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/background-pic.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 50vh;
+    
+}
+
+#background-pic{
+    position: static;
+    width: 100vw;
+    height: 100wh;
+    z-index: -1;
 }
 
 .main{
@@ -15,6 +27,7 @@ body{
                     "client" auto
                     "contact" auto
                     "footer" auto / 1fr;
+    
 }
 
 .header-section{
@@ -34,7 +47,7 @@ body{
 
 .nav-section{
     grid-area: nav;    
-    /* background-color: rgb(15, 65, 139);   rgb(110, 110, 110)*/
+    /* background-color: rgb(15, 65, 139);   rgb(110, 110, 110) rgb(238, 238, 238)*/
     background-image: linear-gradient(to right, rgb(224, 224, 224), rgb(15, 65, 139) , rgb(127, 211, 245), rgb(15, 65, 139), rgb(224, 224, 224));
 }
 
