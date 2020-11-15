@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(224, 224, 224);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url("images/background-pic.png");
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body{
 
 .company-presentation1{
     grid-area: presentation1;
-    background-color: rgb(224, 224, 224);
+    background-color:  rgb(238, 238, 238);
     position: relative;
     height: auto;
     display: flex;
@@ -113,7 +113,7 @@ body{
 
 .company-presentation2{
     grid-area: presentation2;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(238, 238, 238);
 }
 
 #pres-pics{
