@@ -165,8 +165,8 @@ body{
     transition-timing-function: ease-out;
 }
   .float-effect:hover, .float-effect:focus, .float-effect:active {
-    -webkit-transform: translateY(-60px);
-    transform: translateY(-60px);
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
 }
   
   .phase1-pic-animation{
