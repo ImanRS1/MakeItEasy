@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(224, 224, 224);
+    background-color: silver;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -7,7 +7,6 @@ body{
     width: 1200px;
     height: auto;
     margin: 0 auto;
-    background-color: aquamarine;
     display: grid;
     grid-template: "header" auto
                     "nav" auto
@@ -20,7 +19,7 @@ body{
 
 .header-section{
     grid-area: header;
-    background-color: silver;
+    background-color: rgb(224, 224, 224);
 }
 
 #logo-section{
@@ -34,8 +33,9 @@ body{
 }
 
 .nav-section{
-    grid-area: nav;
-    background-color: sienna;
+    grid-area: nav;    
+    /* background-color: rgb(15, 65, 139);   rgb(110, 110, 110)*/
+    background-image: linear-gradient(to right, silver, rgb(15, 65, 139) , rgb(127, 211, 245),  rgb(110, 110, 110), rgb(127, 211, 245), rgb(15, 65, 139), silver );
 }
 
 .nav-section ul{
@@ -47,13 +47,14 @@ body{
 }
 
 .nav-section li{
-    padding: 5px 9%;
-    background-color: aquamarine;
+    padding: 5px 9%;    
+    background-color: rgb(224, 224, 224);
+    font-weight: bold;
 }
 
 .company-presentation1{
     grid-area: presentation1;
-    background-color: silver;
+    background-color: rgb(224, 224, 224);
     position: relative;
     height: auto;
     display: flex;
@@ -65,8 +66,9 @@ body{
 #pres-text{
     z-index: 2;
     width: 1000px;
-    height: 300px;
+    height: 340px;
     line-height: 22px;
+    font-size: 19px;
 }
 
 #pres-header{
@@ -79,7 +81,7 @@ body{
 #pres-logo{
     position: absolute;
     z-index: 0;
-    margin-top: 100px;
+    margin-top: 80px;
     opacity: 0.5;
 }
 
@@ -94,7 +96,7 @@ body{
 
 .company-presentation2{
     grid-area: presentation2;
-    background-color: silver;
+    background-color: rgb(224, 224, 224);
 }
 
 #pres-pics{
