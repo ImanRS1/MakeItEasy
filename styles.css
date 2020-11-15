@@ -84,10 +84,13 @@ body{
 }
 
 #pres-pics img{
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 200px;
 }
 
+#pres-phase-pic{
+    margin-left: 35px;
+}
 
 .company-presentation2{
     grid-area: presentation2;
