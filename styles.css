@@ -149,6 +149,7 @@ body{
     right: 82px;
     position: absolute;
     z-index: -1;
+    opacity: 0;
 }
 
 .float-effect {
@@ -162,12 +163,30 @@ body{
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
+}
   .float-effect:hover, .float-effect:focus, .float-effect:active {
-    -webkit-transform: translateY(-65px);
-    transform: translateY(-65px);
-  }
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+}
   
+  .phase1-pic-animation{
+      animation: fadeInAndOut ease-in-out 2s;
+      animation-iteration-count: infinite;
+}
+
+  @keyframes fadeInAndOut{
+    0% {
+        opacity:0;
+      }
+    50%{
+        opacity: 1;
+    }  
+      100% {
+        opacity: 0;
+      }
+}
+
+
 
 
 .client-section{
