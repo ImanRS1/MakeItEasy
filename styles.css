@@ -8,13 +8,6 @@ body{
     
 }
 
-#background-pic{
-    position: static;
-    width: 100vw;
-    height: 100wh;
-    z-index: -1;
-}
-
 .main{
     width: 1200px;
     height: auto;
@@ -32,7 +25,7 @@ body{
 
 .header-section{
     grid-area: header;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(238, 238, 238);
 }
 
 #logo-section{
@@ -48,6 +41,10 @@ body{
 .nav-section{
     grid-area: nav;    
     /* background-color: rgb(15, 65, 139);   rgb(110, 110, 110) rgb(238, 238, 238)*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
     background-image: linear-gradient(to right, rgb(224, 224, 224), rgb(15, 65, 139) , rgb(127, 211, 245), rgb(15, 65, 139), rgb(224, 224, 224));
 }
 
@@ -102,10 +99,11 @@ body{
     height: 800px;
 }
 
-#pres-pics img{
+.pres-pics img{
     height: 150px;
     width: 200px;
 }
+
 
 #pres-phase-pic{
     margin-left: 35px;
@@ -116,13 +114,19 @@ body{
     background-color: rgb(238, 238, 238);
 }
 
-#pres-pics{
+.pres-pics{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 
-#pres-pics p{
+#pres-number-pic{
+    height: 50px;
+    width: 50px;
+}
+
+
+.pres-pics p{
     text-align: center;
 }
 
@@ -145,6 +149,7 @@ body{
 .contact-section{
     grid-area: contact;
     background-color: wheat;
+    height: 1200px;
 }
 
 .footer{
