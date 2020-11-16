@@ -20,6 +20,7 @@ body{
                     "client" auto
                     "contact" auto
                     "footer" auto / 1fr;
+    opacity: 0.98;
     
 }
 
@@ -45,7 +46,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 99;
-    background-image: linear-gradient(to right, rgb(224, 224, 224), rgb(15, 65, 139) , rgb(127, 211, 245), rgb(15, 65, 139), rgb(224, 224, 224));
+    background-image: linear-gradient(to right, rgb(139, 203, 251), rgb(15, 65, 139) , rgb(224, 224, 224), rgb(15, 65, 139), rgb(139, 203, 251));
 }
 
 .nav-section ul{
@@ -95,8 +96,8 @@ body{
     margin-top: 310px;
     margin-left: 100px;
     opacity: 0.2;
-    width: 1900px;
-    height: 800px;
+    width: 1800px;
+    height: 700px;
     user-select: none;
 }
 
