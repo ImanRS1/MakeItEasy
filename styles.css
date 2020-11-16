@@ -162,6 +162,17 @@ body{
     opacity: 0;
 }
 
+#phase3-inside-pic{
+    width: 200px;
+    height: 150px;
+    top: 54px;
+    right: 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+  
+
 .float-effect {
     display: inline-block;
     vertical-align: middle;
@@ -181,13 +192,20 @@ body{
 }
   
 .phase1-pic-animation{
-      animation: fadeInAndOut ease-in-out 3s;
+      animation: fadeInAndOut ease-in-out 4s;
       animation-iteration-count: infinite;
 }
 
 .phase2-pic-animation{
-    animation: fadeInAndOut ease-in-out 5s;    
+    animation: fadeInAndOut ease-in-out 4s;    
     animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.phase3-pic-animation{
+    animation: fadeInAndOut ease-in-out 4s;    
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
 }
 
   @keyframes fadeInAndOut{
@@ -196,6 +214,7 @@ body{
       }
     50%{
         opacity: 1;
+        animation-duration: 5s;
     }  
       100% {
         opacity: 0;
