@@ -152,6 +152,16 @@ body{
     opacity: 0;
 }
 
+#phase2-inside-pic{
+    width: 200px;
+    height: 150px;
+    top: 54px;
+    right: 25px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
 .float-effect {
     display: inline-block;
     vertical-align: middle;
@@ -164,14 +174,20 @@ body{
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-  .float-effect:hover, .float-effect:focus, .float-effect:active {
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
+
+.float-effect:hover, .float-effect:focus, .float-effect:active {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
 }
   
-  .phase1-pic-animation{
-      animation: fadeInAndOut ease-in-out 2s;
+.phase1-pic-animation{
+      animation: fadeInAndOut ease-in-out 3s;
       animation-iteration-count: infinite;
+}
+
+.phase2-pic-animation{
+    animation: fadeInAndOut ease-in-out 5s;    
+    animation-iteration-count: infinite;
 }
 
   @keyframes fadeInAndOut{
