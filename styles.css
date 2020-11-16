@@ -118,12 +118,13 @@ body{
 .pres-pics{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #pres-number-pic{
     height: 50px;
     width: 50px;
+    opacity: 0;
 }
 
 
@@ -169,6 +170,7 @@ body{
     right: 25px;
     position: absolute;
     z-index: -1;
+    opacity: 0;
 }
 
   
@@ -192,31 +194,25 @@ body{
 }
   
 .phase1-pic-animation{
-      animation: fadeInAndOut ease-in-out 4s;
-      animation-iteration-count: infinite;
+      animation: fadeInAndOut ease-out 5s infinite 0s;
 }
 
 .phase2-pic-animation{
-    animation: fadeInAndOut ease-in-out 4s;    
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
+    animation: fadeInAndOut ease-in-out 5s infinite 2s;
 }
 
 .phase3-pic-animation{
-    animation: fadeInAndOut ease-in-out 4s;    
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
+    animation: fadeInAndOut ease-in-out 5s infinite 3.5s;
 }
 
   @keyframes fadeInAndOut{
     0% {
         opacity:0;
       }
-    50%{
+    23.3333%{
         opacity: 1;
-        animation-duration: 5s;
     }  
-      100% {
+    33.3333% {
         opacity: 0;
       }
 }
