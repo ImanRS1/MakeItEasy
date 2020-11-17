@@ -38,6 +38,14 @@ body{
 
 #logo-header{
     font-weight: lighter;
+    z-index: 1;
+}
+
+#header-background{
+    position: absolute;
+    z-index: 0;
+    height: 26%;
+    width: 87%;
 }
 
 .nav-section{
@@ -46,7 +54,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 99;
-    background-image: linear-gradient(to right, rgb(139, 203, 251), rgb(15, 65, 139) , rgb(224, 224, 224), rgb(15, 65, 139), rgb(139, 203, 251));
+    background-image: linear-gradient(to right, rgb(139, 203, 251), rgb(15, 65, 139), rgb(139, 203, 251));
 }
 
 .nav-section ul{
@@ -101,6 +109,8 @@ body{
     user-select: none;
 }
 
+
+
 .pres-pics img{
     height: 150px;
     width: 200px;
@@ -125,7 +135,7 @@ body{
 #pres-number-pic{
     height: 50px;
     width: 50px;
-    opacity: 0;
+    opacity: 0.2;
 }
 
 
@@ -214,7 +224,7 @@ body{
         opacity: 1;
     }  
     33.3333% {
-        opacity: 0;
+        opacity: 0.2;
       }
 }
 
