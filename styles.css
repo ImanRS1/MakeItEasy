@@ -1,12 +1,13 @@
 body{
     background-color: rgb(224, 224, 224);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-image: url("images/background-pic.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw 50vh;
-    
 }
+
+
 
 .main{
     width: 1200px;
@@ -41,7 +42,6 @@ body{
 
 .nav-section{
     grid-area: nav;    
-    /* background-color: rgb(15, 65, 139);   rgb(110, 110, 110) rgb(238, 238, 238)*/
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -218,18 +218,15 @@ body{
       }
 }
 
-
-
-
 .client-section{
     grid-area: client;
     background-color: springgreen;
+    height: 500px;
 }
 
 .contact-section{
     grid-area: contact;
     background-color: wheat;
-    height: 1200px;
 }
 
 .footer{
