@@ -230,8 +230,13 @@ body{
 
 .client-section{
     grid-area: client;
-    background-color: springgreen;
+    background-color: rgb(238, 238, 238);
     height: 500px;
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-section{
