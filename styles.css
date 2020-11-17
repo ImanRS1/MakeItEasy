@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(35, 80, 148, 0.8); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-image: url("images/background-pic.png");
     background-repeat: no-repeat;
@@ -200,8 +200,8 @@ body{
 }
 
 .float-effect:hover, .float-effect:focus, .float-effect:active {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
 }
   
 .phase1-pic-animation{
