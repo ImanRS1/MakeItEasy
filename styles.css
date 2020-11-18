@@ -22,6 +22,7 @@ body{
                     "contact" auto
                     "footer" auto / 1fr;
     opacity: 0.98;
+    background-color: rgb(238, 238, 238);
     
 }
 
@@ -44,8 +45,26 @@ body{
 #header-background{
     position: absolute;
     z-index: 0;
-    height: 26%;
-    width: 87%;
+    height: 300px;
+    width: 1750px;
+}
+
+.header-background-animation{
+    animation: resize ease-in-out 2 10s;
+}
+
+@keyframes resize{
+    0% {
+      }
+    50%{
+        width: 1250px;
+        height: 200px;
+    }  
+    100% {
+        width: 1750px;
+        height: 300px;
+      }
+
 }
 
 .nav-section{
@@ -233,8 +252,7 @@ body{
     grid-area: client;
     background-color: rgb(238, 238, 238);
     height: 500px;
-    padding-top: 50px;
-
+    margin-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
