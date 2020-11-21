@@ -346,12 +346,39 @@ body{
     width: 350px;
     text-align: start;
     font-size: 28px;
-
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.textInside1:hover{
-    background-color: rgba(0, 0, 0, 1);
+
+.textInside2{
+    color: #fefefe;
+    font-size: 22px;
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 80px;
+    left: 480px;
+    width: 420px;
+    text-align: start;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.textInside3{
+    color: #fefefe;
+    font-size: 22px;
+    padding: 8px 25px;
+    position: absolute;
+    bottom: 80px;
+    left: 480px;
+    width: 420px;
+    text-align: start;    
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.textInside1:hover, .textInside2:hover, .textInside3:hover{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .textInside:hover{
@@ -365,6 +392,48 @@ body{
     position: absolute;
     top: 33px;
     left: 900px;
+}
+
+.websiteAdress1{
+    border: royalblue 1px solid;
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 100px 20px;
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    font-size: 30px;    
+    text-decoration: underline;
+}
+.websiteAdress1:hover, .websiteAdress2:hover, .websiteAdress3:hover{
+    background-color: rgba(65, 105, 225, 0.9);
+}
+
+.websiteAdress2{
+    border: royalblue 1px solid;
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 110px 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.websiteAdress3{
+    border: royalblue 1px solid;
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 110px 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .contact-section{
