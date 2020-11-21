@@ -274,7 +274,7 @@ body{
 
 .case-Slider{
     height: 100%;
-    width: 800px;
+    width: 1000px;
     z-index: 6;
     display: flex;
     align-items: center;
@@ -317,7 +317,7 @@ body{
 }
 
 .prev{
-    right: 800px;
+    right: 1001px;
 }
 
 .prev:hover, .next:hover{
@@ -330,9 +330,28 @@ body{
     font-size: 22px;
     padding: 8px 25px;
     position: absolute;
-    bottom: 8px;
-    width: 580px;
+    bottom: 300px;
+    left: 400px;
+    width: 300px;
     text-align: start;
+}
+
+.textInside1{
+    color: #fefefe;
+    font-size: 22px;
+    padding: 8px 25px;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 350px;
+    text-align: start;
+    font-size: 28px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.textInside1:hover{
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .textInside:hover{
@@ -344,7 +363,8 @@ body{
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
+    top: 33px;
+    left: 900px;
 }
 
 .contact-section{
