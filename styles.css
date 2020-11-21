@@ -29,40 +29,47 @@ body{
 .header-section{
     grid-area: header;
     background-color: rgb(238, 238, 238);
+    overflow: hidden;
+    position: relative;
 }
 
 #logo-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 #logo-header{
     font-weight: lighter;
-    z-index: 1;
+    z-index: 4;
 }
 
 #header-background{
     position: absolute;
-    z-index: 0;
-    height: 300px;
-    width: 1750px;
+    height: 250px;
+    width: 1700px;
+    z-index: 2;
 }
 
 .header-background-animation{
     animation: resize ease-in-out 2 10s;
 }
 
+#header-icon{
+    z-index: 5;
+}
+
 @keyframes resize{
     0% {
       }
     50%{
-        width: 1250px;
+        width: 2000px;
         height: 200px;
     }  
     100% {
-        width: 1750px;
-        height: 300px;
+        width: 1700px;
+        height: 250px;
       }
 
 }
