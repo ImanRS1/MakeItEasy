@@ -284,11 +284,12 @@ body{
 }
 
 .clientCase-Container{
-    background-color: skyblue;
+    background-color: silver;
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+    position: relative;
 }
 
 .case-Slider{
@@ -453,6 +454,16 @@ body{
     left: 10px;
     font-size: 30px;
     text-decoration: underline;
+}
+
+#case-Background-Image{
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
 }
 
 .contact-section{

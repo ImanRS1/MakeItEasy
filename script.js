@@ -35,4 +35,5 @@ function bShowSlides(n){
   }
 
   slides[bSlideIndex - 1].style.display = "block";
+  document.getElementById("case-Background-Image").src = slides[bSlideIndex - 1].getElementsByTagName('img')[0].src;
 }
