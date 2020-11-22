@@ -74,6 +74,25 @@ body{
 
 }
 
+.header-logo-animation{
+    animation: fadeAndSlide linear 1 1s;
+}
+
+@keyframes fadeAndSlide{
+    0%{
+        margin-left: 250px;
+        opacity: 0;
+    }
+    50%{
+        margin-left: 200px;
+        opacity: 0.1;
+    }
+    100%{
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
 .nav-section{
     grid-area: nav;    
     position: -webkit-sticky;
