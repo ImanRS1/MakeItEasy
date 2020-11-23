@@ -281,6 +281,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .clientCase-Container{
@@ -466,9 +467,27 @@ body{
     opacity: 0.2;
 }
 
+#case-Teaser{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(79, 115, 169);
+    position: absolute;
+    right: 0px;
+    bottom: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
 .contact-section{
     grid-area: contact;
     background-color: wheat;
+    height: 200px;
+    width: 100%;
 }
 
 .footer{
