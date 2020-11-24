@@ -19,8 +19,7 @@ body{
                     "presentation1" auto
                     "presentation2" auto
                     "client" auto
-                    "contact" auto
-                    "footer" auto / 1fr;
+                    "contact" auto/ 1fr;
     opacity: 0.98;
     background-color: rgb(238, 238, 238);
     
@@ -468,11 +467,8 @@ body{
 .contact-section{
     margin-top: 120px;
     grid-area: contact;
-    height: 600px;
+    height: 650px;
     width: 100%;
-   /*  display: flex;
-    flex-direction: column; 
-    align-items: center; */
 }
 
 
@@ -535,6 +531,52 @@ input[type=number]::-webkit-outer-spin-button {
 
 .footer{
     grid-area: footer;
-    height: 100px;
-    background-color: aquamarine;
+    height: 250px;
+    width: 100%;
+    background-color: silver;
+}
+
+.footer-container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details{
+
+}
+
+#footerC-header{
+    padding-top: 20px;
+    color: darkblue;
+}
+
+#footerC-details{
+    font-weight: normal;
+    color: royalblue;
+}
+
+#socialMedia-Container{
+}
+
+.footerMedia-icons{
+    margin-right: 10px;
+    filter: grayscale(80%);
+}
+
+.footerMedia-icons:hover{
+    filter: grayscale(0%);
+}
+
+.footer-icon{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.support-details{
+    text-align: end;
 }
