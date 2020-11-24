@@ -489,13 +489,12 @@ body{
 .contact-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 550px;
+    grid-template-rows: 500px;
     grid-template-areas: "cContainerLeft cContainerRight";
 }
 
 .cContainerLeft{
     grid-area: cContainerLeft;
-    background-color: maroon;
 }
 
 .cContainerLeft img{
@@ -508,10 +507,31 @@ body{
 
 .cContainerRight{
     grid-area: cContainerRight;
-    background-color: royalblue;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
+#fname, #lname, #email, #number, #subject{
+    width: 90%;
+    margin: 10px 0px;
+    resize: none;
+}
 
+#submitButton{
+    width: 150px;
+    margin-right: 10%;
+    float: right;
+}
+
+#subject{
+    height: 150px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 
 .footer{
     grid-area: footer;

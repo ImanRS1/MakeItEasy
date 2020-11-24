@@ -107,10 +107,56 @@
             <h2 id="contact-header">Contact us</h2>
             <div class="contact-container">
                 <div class="cContainerLeft">
-                    <p>Fill in your information and a small description of your website idea and we will get in touch with you for free meeting.</p>
+                    <p>Fill in your information and a small description of your website idea and we will get in touch with you for booking a free meeting.</p>
                     <img src="images/meeting3.jpg">
                 </div>
-                <div class="cContainerRight">b</div>
+                <div class="cContainerRight">
+                    <form action="#" method="POST">
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="fname">First name</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="fname" name="firstname" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="lname">Last name</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="text" id="lname" name="lastname"  required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="email">E-mail</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="email" id="email"" name="email"  required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="number">Phone number</label>
+                            </div>
+                            <div class="col-75">
+                            <input type="number" id="number" name="number" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            <label for="subject">Short description of your project</label>
+                            </div>
+                            <div class="col-75">
+                            <textarea id="subject" name="subject" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit" id="submitButton">
+                        </div>                
+                    </form>
+                </div>
 
             </div>
            
