@@ -468,11 +468,11 @@ body{
 .contact-section{
     margin-top: 120px;
     grid-area: contact;
-    background-color: wheat;
     height: 700px;
     width: 100%;
-    display: flex;
-    justify-content: center;
+   /*  display: flex;
+    flex-direction: column; 
+    align-items: center; */
 }
 
 
@@ -481,14 +481,35 @@ body{
     font-weight: lighter;
     font-size: 40px;
     margin: 20px 0px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
 .contact-container{
     display: grid;
-    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 550px;
+    grid-template-areas: "cContainerLeft cContainerRight";
 }
 
+.cContainerLeft{
+    grid-area: cContainerLeft;
+    background-color: maroon;
+}
 
+.cContainerLeft img{
+    width: 100%;    
+}
+
+.cContainerLeft p{
+    padding: 5px;
+}
+
+.cContainerRight{
+    grid-area: cContainerRight;
+    background-color: royalblue;
+}
 
 
 
