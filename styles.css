@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(35, 80, 148, 0.8); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
+    background-color: rgba(240, 235, 235); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-image: url("images/background-pic.png");
     background-repeat: no-repeat;
@@ -28,9 +28,10 @@ body{
 
 .header-section{
     grid-area: header;
-    background-color: rgb(238, 238, 238);
+    background-color: none;
     overflow: hidden;
     position: relative;
+    height: 300px;
 }
 
 #logo-section{
@@ -58,6 +59,8 @@ body{
 
 #header-icon{
     z-index: 5;
+    width: 280px;
+    height: 280px;
 }
 
 @keyframes resize{
@@ -346,55 +349,34 @@ body{
     color: #fefefe;
 }
 
-.textInside{
+.textInside1, .textInside2, .textInside3{
+    
     color: #fefefe;
     font-size: 22px;
     padding: 8px 25px;
     position: absolute;
-    bottom: 300px;
-    left: 400px;
-    width: 300px;
     text-align: start;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 30px;
 }
 
 .textInside1{
-    color: #fefefe;
-    font-size: 22px;
-    padding: 8px 25px;
-    position: absolute;
     top: 80px;
     left: 70px;
     width: 350px;
-    text-align: start;
-    font-size: 28px;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
-
 .textInside2{
-    color: #fefefe;
-    font-size: 22px;
-    padding: 8px 25px;
-    position: absolute;
     bottom: 80px;
     left: 480px;
     width: 420px;
-    text-align: start;
-    font-size: 28px;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .textInside3{
-    color: #fefefe;
-    font-size: 22px;
-    padding: 8px 25px;
-    position: absolute;
-    bottom: 80px;
+    top: 80px;
     left: 480px;
     width: 420px;
-    text-align: start;    
-    font-size: 28px;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 
