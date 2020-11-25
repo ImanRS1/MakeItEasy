@@ -20,7 +20,7 @@ body{
     overflow: hidden;
 }
 
-#wCloud1, #wCloud2, #wCloud3, #wCloud4, #gCloud1, #gCloud2{
+#wCloud1, #wCloud2, #wCloud3, #wCloud4, #gCloud1, #gCloud2, #lgCloud1, #lgCloud2{
     position: absolute;
     width: 65%;
     height: 100%;
@@ -28,8 +28,49 @@ body{
 
 #wCloud1{
     z-index: 3;
-    bottom: -300px;
-    left: -300px;
+    bottom: -350px;
+    left: -100px;
+}
+
+#wCloud2{    
+    z-index: 3;
+    top: -100px;
+    left: -550px;
+}
+
+#wCloud3{    
+    z-index: 3;
+    bottom: -490px;
+    right: -120px;
+}
+
+#wCloud4{
+    z-indeX: 3;
+    bottom: -400px;
+    left: -400px;
+}
+
+#gCloud1{ 
+    z-index: 2;
+    top: 200px;
+    left: -350px;
+}
+
+#gCloud2{ 
+    z-index: 2;
+    top: 550px;
+    right: 250px;
+}
+
+#lgCloud1{
+    z-index: 1;
+    right: -550px;
+    bottom: -450px;
+}
+
+#lgCloud2{
+    z-index: 1;
+    bottom: -350px;
 }
 
 
