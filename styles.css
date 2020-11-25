@@ -22,8 +22,8 @@ body{
 
 #wCloud1, #wCloud2, #wCloud3, #wCloud4, #gCloud1, #gCloud2, #lgCloud1, #lgCloud2{
     position: absolute;
-    width: 65%;
-    height: 100%;
+    width: 65vw;
+    height: 100vh;
 }
 
 #wCloud1{
@@ -34,7 +34,7 @@ body{
 
 #wCloud2{    
     z-index: 3;
-    top: -100px;
+    top: -50px;
     left: -550px;
 }
 
@@ -73,6 +73,29 @@ body{
     bottom: -350px;
 }
 
+.wCloud-animation{
+    animation: cloudAnimation ease-in-out infinite 10s;
+}
+.gCloud-animation{
+    animation: cloudAnimation ease-in-out infinite 10s 5s;
+}
+.lgCloud-animation{
+    animation: cloudAnimation ease-in-out infinite 10s 2s;
+}
+
+@keyframes cloudAnimation{
+    0%{
+
+    }
+    50%{
+        width: 70%;
+        height: 95%;
+
+    }
+    100%{
+
+    }
+}
 
 .main{
     z-index: 99;
@@ -169,7 +192,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 99;
-    background-image: linear-gradient(to right, rgb(139, 203, 251), rgb(15, 65, 139), rgb(139, 203, 251));
+    background-image: linear-gradient(to right, rgb(146, 203, 255), rgb(15, 65, 139), rgb(146, 203, 255));
 }
 
 .nav-section ul{
