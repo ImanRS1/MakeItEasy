@@ -265,7 +265,7 @@ body{
     z-index: 2;
     font-weight: lighter;
     font-size: 40px;
-    margin: 20px 0px;
+    margin: 20px auto;
 }
 
 #pres-logo{
@@ -862,16 +862,23 @@ input[type=number]::-webkit-outer-spin-button {
         left: 0;
         box-sizing: border-box;
     }
+
+    #pres-logo{
+        width: 400px;
+    }
     
 }
 
 @media only screen and (max-width: 800px) {
 
     .pres-pics{
-        display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 30px;
+    }
+
+    #pres-logo{
+        height: 150px;
+        width: 1200px;
     }
 }
 
@@ -899,7 +906,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-
+@media only screen and (max-width: 1000px) {
+    #pres-logo{
+        height: 100%;
+    }
+}
 
 
 @media only screen and (max-width: 1110px) {
