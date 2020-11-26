@@ -577,6 +577,7 @@ body{
     position: relative;
     height: 600px;
     width: 800px;
+    margin-top: 50px;
 }
 
 .client-sec-mobile img{    
@@ -584,7 +585,7 @@ body{
     height: 100%;
 }
 
-.mtextInside1:hover, .textInside2:hover, .textInside3:hover{
+.mtextInside1:hover, .mtextInside2:hover, .mtextInside3:hover{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -592,7 +593,7 @@ body{
     
     color: #fefefe;
     font-size: 22px;
-    padding: 8px 25px;
+    padding: 1px 25px;
     position: absolute;
     text-align: start;
     font-size: 22px;
@@ -602,7 +603,7 @@ body{
 
 .mtextInside1{
     bottom: 20px;
-    left: 70px;
+    left: 50px;
     width: 80%;
 }
 
@@ -618,10 +619,48 @@ body{
     font-size: 30px;    
     text-decoration: underline;
 }
-.mwebsiteAdress1:hover, .websiteAdress2:hover, .websiteAdress3:hover{
+.mwebsiteAdress1:hover, .mwebsiteAdress2:hover, .mwebsiteAdress3:hover{
     background-color: rgba(65, 105, 225, 0.9);
 }
 
+.mtextInside2{
+    bottom: 20px;
+    left: 50px;
+    width: 80%;
+}
+
+.mwebsiteAdress2{
+    border: royalblue 1px solid;
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 50px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.mtextInside3{
+    bottom: 20px;
+    left: 50px;
+    width: 80%;
+}
+
+.mwebsiteAdress3{
+    border: royalblue 1px solid;
+    background-color: rgba(65, 105, 225, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 80px 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
 
 #case-Teaser{
     width: 600px;
@@ -789,6 +828,16 @@ input[type=number]::-webkit-outer-spin-button {
 
     .client-sec-mobile{
         display: block;
+    }
+
+    .client-section{
+        height: auto;
+    }
+
+    #pres-text{     
+        width: auto;
+        height: auto;
+        padding: 0 15px;
     }
   
 
