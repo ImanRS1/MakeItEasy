@@ -139,8 +139,7 @@ body{
     height: auto;
     margin: 0 auto; 
     display: grid;
-    grid-template: /* "header" auto */
-                    "nav" auto
+    grid-template:  "nav" auto
                     "presentation1" auto
                     "presentation2" auto
                     "client" auto
