@@ -37,3 +37,10 @@ function bShowSlides(n){
   slides[bSlideIndex - 1].style.display = "block";
   document.getElementById("case-Background-Image").src = slides[bSlideIndex - 1].getElementsByTagName('img')[0].src;
 }
+
+
+window.onscroll = function(ev) {
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      alert("you're at the bottom of the page");
+  }
+};
