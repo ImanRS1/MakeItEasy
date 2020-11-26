@@ -15,7 +15,7 @@ body{
 .header{
     max-width: 100%;
     height: 100vh;  
-    background-color: rgb(146, 203, 255);
+    background-color: rgb(132, 196, 255);
     position: relative;   
     overflow: hidden;
    
@@ -148,8 +148,7 @@ body{
                     "client" auto
                     "contact" auto/ 1fr;
     opacity: 0.98;
-    background-color: rgb(238, 238, 238);
-    
+    background-color: rgb(238, 238, 238);    
 }   
 
 
@@ -157,7 +156,7 @@ body{
 .header-logo{
     position: absolute;
     top: 200px;
-    left: 150px;
+    left: 130px;
     z-index: 17;
 }
 
@@ -242,7 +241,7 @@ body{
 }
 
 .company-presentation1{
-    margin-top:50px;
+    margin-top: 50px;
     grid-area: presentation1;
     background-color:  rgb(238, 238, 238);
     position: relative;
@@ -703,4 +702,40 @@ input[type=number]::-webkit-outer-spin-button {
 
 .support-details{
     text-align: end;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .header-logo{
+        left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .header-logo{
+        left: 50px;
+    }
+
 }
