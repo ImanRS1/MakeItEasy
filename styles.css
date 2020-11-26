@@ -865,6 +865,16 @@ input[type=number]::-webkit-outer-spin-button {
     
 }
 
+@media only screen and (max-width: 800px) {
+
+    .pres-pics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+}
+
 
 @media only screen and (max-width: 817px) {
 
