@@ -17,6 +17,7 @@ body{
     height: 100vh;  
     background-color: rgb(146, 203, 255);
     position: relative;   
+    overflow: hidden;
    
 }
 
@@ -45,22 +46,16 @@ body{
 
 .header-nav ul{    
     display: flex;
-    margin-right: 200px;
+    margin-right: 180px;
     list-style-type: none;
 }
 
 .header-nav li{
-    margin-left: 50px;
+    margin-left: 80px;
     font-size: 22px;
 }
-/* 
-.header-nav{
-    z-index: 8;
-    position: fixed;
-    top: 0;
-    opacity: 0.5;
-}
- */
+
+
 #wCloud1, #wCloud2, #wCloud3, #wCloud4, #gCloud1, #gCloud2, #lgCloud1, #lgCloud2{
     position: absolute;
     width: 65vw;
