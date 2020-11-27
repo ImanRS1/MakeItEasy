@@ -866,6 +866,11 @@ input[type=number]::-webkit-outer-spin-button {
     #pres-logo{
         width: 400px;
     }
+
+
+    #case-Teaser{
+        bottom: -50px;
+    }
     
 }
 
@@ -894,6 +899,12 @@ input[type=number]::-webkit-outer-spin-button {
         font-size: 19px;
         line-height: 20px;
         z-index: 4;
+    }
+
+    #case-Teaser{
+        font-size: 22px;
+        width: 350px;
+        padding: 0px 10px;
     }
 
 }
