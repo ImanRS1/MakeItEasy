@@ -67,49 +67,64 @@ body{
 
 #wCloud1{
     z-index: 16;
-    bottom: -350px;
-    left: -100px;
+   /*  bottom: -350px;
+    left: -100px; */
+    bottom: -50vh;
+    left: -5vw;
 }
 
 #wCloud2{    
     z-index: 16;
-    top: 40px;
-    left: -550px;
+   /*  top: 40px;
+    left: -550px; */
+    top: 10vh;
+    left: -37vw; 
 }
 
 #wCloud3{    
     z-index: 3;
-    bottom: -490px;
-    right: -120px;
+    /* bottom: -490px;
+    right: -120px; */
+    bottom: -65vh;
+    right: -6vw;
 }
 
 #wCloud4{
     z-indeX: 3;
-    bottom: -400px;
-    left: -400px;
+    /* bottom: -400px;
+    left: -400px; */
+    bottom: -55vh;
+    left: -55vw;
 }
 
 #gCloud1{ 
     z-index: 2;
-    top: 200px;
-    left: -350px;
+   /*  top: 200px;
+    left: -350px; */
+    top: 33vh;
+    left: -19vw;
 }
 
 #gCloud2{ 
     z-index: 2;
-    top: 450px;
-    right: 250px;
+    /* top: 450px;
+    right: 250px; */
+    top: 65vh;
+    right: 15vw;
 }
 
 #lgCloud1{
     z-index: 1;
-    right: -550px;
-    bottom: -450px;
+    /* right: -550px;
+    bottom: -450px; */
+    right: -30vw;
+    bottom: -69vh;
 }
 
 #lgCloud2{
     z-index: 1;
-    bottom: -350px;
+    /* bottom: -350px; */
+    bottom: -48vh;
 }
 
 .wCloud-animation{
