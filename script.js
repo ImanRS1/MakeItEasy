@@ -1,24 +1,28 @@
-var burgerMenu = document.getElementsByClassName("burger-menu");
+
+
+document.addEventListener("click", function(evt) {
+      targetElement = evt.target;
+      
+      if(targetElement.classList.contains("navClick")){
+        burgerClick();
+      }else{
+        document.getElementsByClassName("burger-menu")[0].style.display = "none";
+      }
+
+      console.log(targetElement);
+});
+
+
+
 function burgerClick(){
- 
+  var burgerMenu = document.getElementsByClassName("burger-menu");
 
-  burgerMenu.setAttribute("id", "showContent");
-  console.log(burgerMenu);
-  
-
-/*   hiddenSlideTexts.item(i).setAttribute("id", "hide-content");
-
-  test.className += 'makeVisible'; */
-
-  /* 
-  test.classList.add("makeVisible");
-   */
-  //.style.display= "block";
-
- /*  var element = document.getElementById("myDIV");
-  element.classList.add("mystyle"); */
-
-
+  if(burgerMenu[0].style.display == "block"){
+    burgerMenu[0].style.display = "none";
+  }else{
+    
+  burgerMenu[0].style.display = "block";
+  }
 }
 
 
