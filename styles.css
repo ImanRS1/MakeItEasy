@@ -814,6 +814,18 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
+
+@media only screen and (max-width: 560px) {
+
+    
+    #case-Teaser{
+        font-size: 18px !important;
+        width: 290px !important;
+    }
+
+
+}
+
 @media only screen and (max-width: 585px) {
     
 
@@ -903,7 +915,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     #case-Teaser{
         font-size: 22px;
-        width: 350px;
+        width: 450px;
         padding: 0px 10px;
     }
 
