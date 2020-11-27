@@ -985,6 +985,9 @@ input[type=number]::-webkit-outer-spin-button {
         bottom: -50px;
     }
     
+    .contact-section{
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 770px) {
