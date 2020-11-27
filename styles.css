@@ -28,29 +28,83 @@ body{
     position: relative;
 }
 
-.header-navContainer{
-    z-index: 99;
+.navField{
     width: 100%;
     height: 50px;
-    background-color: rgb(146, 203, 255);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    z-index: 99;
     position: fixed;
     top: 0;
-}
-
-.header-nav{
-    z-index: 25;
-}
-
-.header-nav ul{    
     display: flex;
-    margin-right: 170px;
+    justify-content: center;    
+    background-color: rgb(146, 203, 255);
+}
+
+.navContainer{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navIcon img{
+    width: 80px;
+    height: 50px;
+    float: left;
+    background-color: rgb(238, 238, 238); 
+    display: none;
+}
+
+.nav-burger{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238); 
+    color: rgb(146, 203, 255);
+}
+.burger-menu{
+    z-index: 99;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    
+}
+.burger-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.burger-menu li{    
+    background-color: rgb(146, 203, 255);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+.nav{
+    z-index: 25;
+    display: none;              /* här2 */
+}
+
+.nav ul{    
+    display: flex;
+    margin-right: 15px;
     list-style-type: none;
 }
 
-.header-nav li{
+.nav li{
     margin-left: 70px;
     font-size: 22px;
     padding: 5px;
@@ -951,6 +1005,21 @@ input[type=number]::-webkit-outer-spin-button {
         height: 150px;
         width: 1200px;
     }
+
+
+   /*  HAMBURGAR MENY HÄR */
+
+   .nav{
+       display: none;
+   }
+
+   .navIcon img{
+       display: block;
+   }
+
+   .navContainer{
+       width: 100%;
+   }
 }
 
 
@@ -1028,6 +1097,97 @@ input[type=number]::-webkit-outer-spin-button {
         text-align: center;
     }
 
+
+  
+
+   #wCloud1, #wCloud2, #wCloud3, #wCloud4, #gCloud1, #gCloud2, #lgCloud1, #lgCloud2{
+    position: absolute;
+    width: 95%;
+    height: 90%;
+   }
+
+    @keyframes cloudAnimation{
+        0%{
+    
+        }
+        50%{
+            width: 99%;
+            height: 95%;
+    
+        }
+        100%{
+    
+        }
+    }
+    
+    /* width: 70%;
+    height: 95%; */
+
+
+
+    #wCloud1{
+        z-index: 16;
+    /*  bottom: -350px;
+        left: -100px; */
+        bottom: -50vh;
+        left: -5vw;
+    }
+
+    #wCloud2{    
+        z-index: 16;
+    /*  top: 40px;
+        left: -550px; */
+        top: 35vh;
+        left: -47vw; 
+    }
+
+    #wCloud3{    
+        z-index: 3;
+        /* bottom: -490px;
+        right: -120px; */
+        bottom: -65vh;
+        right: -28vw;
+    }
+
+    #wCloud4{
+        z-indeX: 3;
+        /* bottom: -400px;
+        left: -400px; */
+        bottom: -55vh;
+        left: -55vw;
+    }
+
+    #gCloud1{ 
+        z-index: 2;
+    /*  top: 200px;
+        left: -350px; */
+        top: 43vh;
+        left: -29vw;
+    }
+
+    #gCloud2{ 
+        z-index: 2;
+        /* top: 450px;
+        right: 250px; */
+        
+
+        right: -20vw;
+        bottom: -59vh;
+    }
+
+    #lgCloud1{
+        z-index: 1;
+        /* right: -550px;
+        bottom: -450px; */
+        top: 65vh;
+        right: -45vw;
+    }
+
+    #lgCloud2{
+        z-index: 1;
+        /* bottom: -350px; */
+        bottom: -44vh;
+    }
 }
 
 
@@ -1054,7 +1214,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 1280px) {
-    }
+    
 
     .footer-container{
         width: auto;
