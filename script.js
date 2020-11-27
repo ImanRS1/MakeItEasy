@@ -1,7 +1,24 @@
-function phaseHoverOn(){
-}
+var burgerMenu = document.getElementsByClassName("burger-menu");
+function burgerClick(){
+ 
 
-function phaseHoverOff(){
+  burgerMenu.setAttribute("id", "showContent");
+  console.log(burgerMenu);
+  
+
+/*   hiddenSlideTexts.item(i).setAttribute("id", "hide-content");
+
+  test.className += 'makeVisible'; */
+
+  /* 
+  test.classList.add("makeVisible");
+   */
+  //.style.display= "block";
+
+ /*  var element = document.getElementById("myDIV");
+  element.classList.add("mystyle"); */
+
+
 }
 
 

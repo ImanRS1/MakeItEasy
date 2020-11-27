@@ -11,6 +11,13 @@ body{
     background-size: 100vw 50vh;
 }
 
+#showContent{
+    display: block;
+}
+
+#hideContent{
+    display: none;
+}
 
 .header{
     max-width: 100%;
@@ -65,6 +72,7 @@ body{
     justify-content: center;
     background-color: rgb(238, 238, 238); 
     color: rgb(146, 203, 255);
+    display: none;
 }
 .burger-menu{
     z-index: 99;
@@ -72,15 +80,15 @@ body{
     top: 50px;
     left: 0px;
     width: 100%;
+    display: none;
     
 }
 .burger-menu ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;    
 }
+
 .burger-menu li{    
     background-color: rgb(146, 203, 255);
     border: 1px solid black;
@@ -95,7 +103,7 @@ body{
 
 .nav{
     z-index: 25;
-    display: none;              /* här2 */
+    display: block;           
 }
 
 .nav ul{    
@@ -1011,6 +1019,10 @@ input[type=number]::-webkit-outer-spin-button {
 
    .nav{
        display: none;
+   }
+
+   .nav-burger{
+       display: flex;
    }
 
    .navIcon img{
