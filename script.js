@@ -8,8 +8,6 @@ document.addEventListener("click", function(evt) {
       }else{
         document.getElementsByClassName("burger-menu")[0].style.display = "none";
       }
-
-      console.log(targetElement);
 });
 
 
