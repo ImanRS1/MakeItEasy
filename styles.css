@@ -29,7 +29,7 @@ body{
 }
 
 .header-navContainer{
-    z-index: 18;
+    z-index: 99;
     width: 100%;
     height: 50px;
     background-color: rgb(146, 203, 255);
@@ -41,7 +41,7 @@ body{
 }
 
 .header-nav{
-    z-index: 7;
+    z-index: 25;
 }
 
 .header-nav ul{    
@@ -167,18 +167,26 @@ body{
 }   
 
 
-
-.header-logo{
+.header-logocontainer{
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    top: 200px;
-    left: 130px;
+    display: flex;
+    align-items: center;
+    margin-left: 15vw;
+}
+
+.header-logo{/* 
+    position: absolute;
+    top: 47vh;
+    left: 33vw; */
     z-index: 17;
 }
 
-#logo-section{
+#logo-section{/* 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     z-index: 25;
 }
 
@@ -766,16 +774,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer-container{
-    width: 1200px;
+    width: 1200px;                   /*  FIXA DETTA */
     margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.contact-details{
 
-}
 
 #footerC-header{
     padding-top: 20px;
@@ -882,6 +888,16 @@ input[type=number]::-webkit-outer-spin-button {
    #footerC-header{
        margin-top: 0;
    }
+
+   #logo-header{
+    font-size: 18px !important;
+    margin: 0;
+    }
+
+    #header-icon{
+        width: 300px;
+        height: 300px;
+    }
     
 }
 
@@ -956,6 +972,10 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 0px 10px;
     }
 
+    #logo-header{
+        font-size: 22px;
+    }
+
 }
 
 
@@ -997,16 +1017,21 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+@media only screen and (max-width: 1172px) {
+
+    .header-logocontainer{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1215px) {
 
-    
-    
-
-    .header-logo{
-        left: 50px;
-    }
     .main{
         width: auto;
     }
@@ -1027,8 +1052,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 1280px) {
-    .header-logo{
-        left: 50px;
     }
 
     .footer-container{
