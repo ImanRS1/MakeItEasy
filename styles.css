@@ -886,6 +886,21 @@ input[type=number]::-webkit-outer-spin-button {
     
 }
 
+@media only screen and (max-width: 770px) {
+
+    .contact-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "cContainerLeft" 
+                            "cContainerRight";
+    }
+    
+    .contact-section{
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
 
     .pres-pics{
