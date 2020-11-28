@@ -1,5 +1,5 @@
 
-
+/* 
 function checkHorizontalPosition(){  
   var windowWidth = window.innerWidth;
 
@@ -14,7 +14,7 @@ function checkHorizontalPosition(){
 
 setInterval(function(){
   checkHorizontalPosition();
-}, 150);
+}, 150); */
 
 
 

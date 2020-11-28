@@ -63,7 +63,7 @@ a:hover{
     width: 80px;
     height: 50px;
     float: left;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(219, 216, 216);
     display: none;
 }
 
@@ -594,42 +594,45 @@ a:hover{
 
 .websiteAdress1{
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 100px 20px;
+    padding: 25px 20px;
     position: absolute;
-    bottom: 70px;
-    right: 10px;
+    bottom: 170px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    right: 0px;
     font-size: 30px;    
     text-decoration: underline;
 }
 .websiteAdress1:hover, .websiteAdress2:hover, .websiteAdress3:hover{
-    background-color: rgba(65, 105, 225, 0.9);
+    background-color: rgba(20, 97, 164, 0.9);
 }
 
 .websiteAdress2{
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 50px 10px;
+    padding: 25px 20px;
     position: absolute;
-    top: 65px;
-    left: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 95px;
+    left: 0px;
     font-size: 30px;
     text-decoration: underline;
 }
 
 .websiteAdress3{
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 110px 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 25px 20px;
     position: absolute;
-    bottom: 70px;
-    left: 10px;
+    bottom: 170px;
+    left: 0px;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -681,19 +684,21 @@ a:hover{
 }
 
 .mwebsiteAdress1{
+
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 100px 20px;
+    padding: 25px 20px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 90px;
+    left: 0px;
     font-size: 30px;    
     text-decoration: underline;
 }
 .mwebsiteAdress1:hover, .mwebsiteAdress2:hover, .mwebsiteAdress3:hover{
-    background-color: rgba(65, 105, 225, 0.9);
+    background-color: rgba(20, 97, 164, 0.9);
 }
 
 .mtextInside2{
@@ -704,13 +709,14 @@ a:hover{
 
 .mwebsiteAdress2{
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 50px 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 25px 20px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 70px;
+    right: 0px;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -724,13 +730,14 @@ a:hover{
 
 .mwebsiteAdress3{
     border: royalblue 1px solid;
-    background-color: rgba(65, 105, 225, 0.7);
+    background-color: rgba(20, 97, 164, 0.7);
     color: white;
-    border-radius: 50%;
-    padding: 80px 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 25px 20px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 80px;
+    right: 0px;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -738,7 +745,7 @@ a:hover{
 #case-Teaser{
     width: 600px;
     height: 70px;
-    background-color: rgb(79, 115, 169);
+    background-color: rgb(20, 97, 164);
     position: absolute;
     right: 0px;
     bottom: -100px;
@@ -889,6 +896,11 @@ input[type=number]::-webkit-outer-spin-button {
     #pres-header{
         text-align: center;
     }
+
+    .mwebsiteAdress1, .mwebsiteAdress3, .mwebsiteAdress2{
+        top: 30px;
+        padding: 15px 5px !important;
+    }
 }
 
 
@@ -912,7 +924,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .mwebsiteAdress1, .mwebsiteAdress3{
-        padding: 50px 20px;
+        padding: 25px 20px;
     }
     
 }
@@ -1130,9 +1142,6 @@ input[type=number]::-webkit-outer-spin-button {
         }
     }
     
-    /* width: 70%;
-    height: 95%; */
-
 
 
     #wCloud1{
@@ -1229,15 +1238,6 @@ input[type=number]::-webkit-outer-spin-button {
     .footer-container{
         width: auto;
         padding: 0 10px;
-    }
-
-}
-
-@media only screen and (max-height: 500px) {
-    
-
-    .navField{
-        background-color: royalblue;
     }
 
 }
