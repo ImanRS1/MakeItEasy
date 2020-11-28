@@ -63,7 +63,7 @@ a:hover{
     width: 80px;
     height: 50px;
     float: left;
-    background-color: rgb(219, 216, 216);
+    background-color:rgb(238, 238, 238); 
     display: none;
 }
 
@@ -94,13 +94,20 @@ a:hover{
 }
 
 .burger-menu li{    
-    background-color: rgb(146, 203, 255);
+    background-color: rgb(238, 238, 238); 
     border: 1px solid black;
     display: flex;
     justify-content: center;
     padding: 10px;
     font-size: 22px;
+    color: black;
 }
+
+.burger-menu li:hover{
+    color: rgb(20, 97, 164);
+}
+
+
 
 
 
@@ -1031,9 +1038,9 @@ input[type=number]::-webkit-outer-spin-button {
        display: flex;
    }
 
-   .navIcon{
+   /* .navIcon{
        display: block;
-   }
+   } */
 
    .navContainer{
        width: 100%;
