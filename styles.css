@@ -1,9 +1,11 @@
 html,body{
     margin:0;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: rgba(240, 235, 235); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
+    background-color: #fefefe;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-image: url("images/background-pic.png");
     background-repeat: no-repeat;
@@ -232,7 +234,8 @@ a:hover{
                     "client" auto
                     "contact" auto/ 1fr;
     opacity: 0.98;
-    background-color: rgb(238, 238, 238);    
+    background-color: #fefefe;
+    /* background-color: rgb(238, 238, 238);    */ 
 }   
 
 
@@ -1256,7 +1259,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
-@media only screen and (min-height: 150vh) {
+@media only screen and (max-height: 500px) {
     
 
     .navField{
