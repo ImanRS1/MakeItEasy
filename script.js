@@ -1,3 +1,22 @@
+var scrolled = false;
+
+window.onscroll = function() {
+  scrolled = true;
+  var windowHeight = window.innerHeight;
+  if(window.scrollY > windowHeight){
+    document.getElementsByClassName("navField")[0].style.background = "rgb(20, 97, 164)";
+    document.getElementsByClassName("nav-burger")[0].style.color = "rgb(20, 97, 164)";
+  }else{
+    document.getElementsByClassName("navField")[0].style.background = "rgb(132, 196, 255)";
+    document.getElementsByClassName("nav-burger")[0].style.color = "rgb(132, 196, 255)";
+  }
+}
+
+setInterval(function(){
+  if (scrolled) {
+    scrolled = false;
+  }
+}, 150);
 
 
 document.addEventListener("click", function(evt) {
