@@ -15,11 +15,11 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
-    color: white;
+    color: black;
 }
 
 
@@ -59,7 +59,7 @@ a:hover{
 }
 
 
-.navIcon img{
+.navIcon{
     width: 80px;
     height: 50px;
     float: left;
@@ -302,29 +302,6 @@ a:hover{
     }
 }
 
-/* .nav-section{
-    grid-area: nav;    
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 99;
-    background-image: linear-gradient(to right, rgb(146, 203, 255), rgb(15, 65, 139), rgb(146, 203, 255));
-} */
-
-/* .nav-section ul{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.nav-section li{
-    padding: 5px 9%;    
-    background-color: rgb(252, 247, 247);
-    font-weight: bold;
-} */
-
 .company-presentation{
     overflow: hidden;
 }
@@ -332,7 +309,8 @@ a:hover{
 .company-presentation1{
     margin-top: 50px;
     grid-area: presentation1;
-    background-color:  rgb(238, 238, 238);
+    /* background-color:  rgb(238, 238, 238); */
+    background-color: #fefefe;
     position: relative;
     height: auto;
     display: flex;
@@ -382,7 +360,8 @@ a:hover{
 
 .company-presentation2{
     grid-area: presentation2;
-    background-color: rgb(238, 238, 238);
+    /* background-color: rgb(238, 238, 238); */
+    background-color: #fefefe;
 }
 
 .pres-pics{
@@ -489,7 +468,8 @@ a:hover{
 
 .client-section{
     grid-area: client;
-    background-color: rgb(238, 238, 238);
+    /* background-color: rgb(238, 238, 238); */
+    background-color: #fefefe;
     height: 800px;
     margin-top: 50px;
     display: flex;
@@ -840,7 +820,7 @@ input[type=number]::-webkit-outer-spin-button {
     grid-area: footer;
     height: 250px;
     width: 100%;
-    background-color: silver;
+    background-color: rgb(219, 216, 216);
 }
 
 .footer-container{
@@ -1039,7 +1019,7 @@ input[type=number]::-webkit-outer-spin-button {
        display: flex;
    }
 
-   .navIcon img{
+   .navIcon{
        display: block;
    }
 

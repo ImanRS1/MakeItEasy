@@ -1,12 +1,36 @@
+
+
+function checkHorizontalPosition(){  
+  var windowWidth = window.innerWidth;
+
+  if(windowWidth <= 800){      
+    return true;
+    //document.getElementsByClassName("navIcon")[0].style.display = "block";
+  }else if(windowWidth > 800){      
+    return false;
+    //document.getElementsByClassName("navIcon")[0].style.display = "none";
+  }
+}
+
+setInterval(function(){
+  checkHorizontalPosition();
+}, 150);
+
+
+
 var scrolled = false;
 
 window.onscroll = function() {
   scrolled = true;
   var windowHeight = window.innerHeight;
+  var windowWidth = window.innerWidth;
+
   if(window.scrollY > windowHeight){
     document.getElementsByClassName("navField")[0].style.background = "rgb(20, 97, 164)";
     document.getElementsByClassName("nav-burger")[0].style.color = "rgb(20, 97, 164)";
+    document.getElementsByClassName("navIcon")[0].style.display = "block";
   }else{
+    document.getElementsByClassName("navIcon")[0].style.display = "none";
     document.getElementsByClassName("navField")[0].style.background = "rgb(132, 196, 255)";
     document.getElementsByClassName("nav-burger")[0].style.color = "rgb(132, 196, 255)";
   }
