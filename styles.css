@@ -361,10 +361,10 @@ a:hover{
 }
 
 
-#pres-phase-pic{
+/* #pres-phase-pic{
     margin-left: 35px;
 }
-
+ */
 .company-presentation2{
     grid-area: presentation2;
     /* background-color: rgb(238, 238, 238); */
@@ -380,6 +380,7 @@ a:hover{
 #pres-number-pic{
     height: 50px;
     width: 50px;
+    margin-right: 190px;
 }
 
 
@@ -396,13 +397,20 @@ a:hover{
 #pres-phase1, #pres-phase2, #pres-phase3{
     width: 260px;
     z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pres-phase1, #pres-phase2, #pres-phase3:hover{
+    cursor: pointer;
 }
 
 #phase1-inside-pic{
     width: 66px;
     height: 60px;
-    top: 82px;
-    right: 82px;
+    top: 80px;
+    right: 86px;
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -411,8 +419,8 @@ a:hover{
 #phase2-inside-pic{
     width: 200px;
     height: 150px;
-    top: 54px;
-    right: 25px;
+    top: 50px;
+    right: 30px;
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -421,8 +429,8 @@ a:hover{
 #phase3-inside-pic{
     width: 200px;
     height: 150px;
-    top: 54px;
-    right: 25px;
+    top: 50px;
+    right: 30px;
     position: absolute;
     z-index: -1;
     opacity: 0;
