@@ -507,6 +507,11 @@ a:hover{
     font-size: 35px;
 }
 
+#quoteName{
+    text-align: end;
+    font-size: 14px;
+}
+
 .clientCase-Container{
     background-color: silver;
     height: 100%;
