@@ -1,22 +1,4 @@
 
-/* 
-function checkHorizontalPosition(){  
-  var windowWidth = window.innerWidth;
-
-  if(windowWidth <= 800){      
-    return true;
-    //document.getElementsByClassName("navIcon")[0].style.display = "block";
-  }else if(windowWidth > 800){      
-    return false;
-    //document.getElementsByClassName("navIcon")[0].style.display = "none";
-  }
-}
-
-setInterval(function(){
-  checkHorizontalPosition();
-}, 150); */
-
-
 
 var scrolled = false;
 
@@ -45,11 +27,13 @@ setInterval(function(){
 
 document.addEventListener("click", function(evt) {
       targetElement = evt.target;
+      var navIcon = document.getElementsByClassName("nav-burger");
       
       if(targetElement.classList.contains("navClick")){
         burgerClick();
       }else{
         document.getElementsByClassName("burger-menu")[0].style.display = "none";
+        navIcon[0].innerHTML = "&#9776;"
       }
 });
 
@@ -57,12 +41,14 @@ document.addEventListener("click", function(evt) {
 
 function burgerClick(){
   var burgerMenu = document.getElementsByClassName("burger-menu");
+  var navIcon = document.getElementsByClassName("nav-burger");
 
   if(burgerMenu[0].style.display == "block"){
     burgerMenu[0].style.display = "none";
-  }else{
-    
-  burgerMenu[0].style.display = "block";
+    navIcon[0].innerHTML = "&#9776;"
+  }else{    
+    burgerMenu[0].style.display = "block";
+    navIcon[0].innerHTML = "&#10006;"
   }
 }
 
@@ -100,9 +86,3 @@ function bShowSlides(n){
   document.getElementById("case-Background-Image").src = slides[bSlideIndex - 1].getElementsByTagName('img')[0].src;
 }
 
-
-/* window.onscroll = function(ev) {
-  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-      alert("you're at the bottom of the page");
-  }
-}; */
