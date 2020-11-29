@@ -694,7 +694,7 @@ a:hover{
     
     color: #fefefe;
     font-size: 22px;
-    padding: 1px 25px;
+    padding: 3px 25px;
     position: absolute;
     text-align: start;
     font-size: 22px;
@@ -1000,7 +1000,7 @@ input[type=number]::-webkit-outer-spin-button {
         position: relative;
         bottom: 50px;
         width: 100%;
-        padding: 1px 10px;
+        padding: 3px 10px;
         left: 0;
         box-sizing: border-box;
     }
