@@ -3,15 +3,24 @@ html,body{
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'ubuntu';
+    src: url("font/Ubuntu-Light.ttf") format("truetype");
+}
+
 body{
     background-color: rgba(240, 235, 235); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
     background-color: #fefefe;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+    font-family: ubuntu; 
     background-image: url("images/background-pic2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100vw 50vh;
+    
 }
+
+
 
 a{
     text-decoration: none;
@@ -314,7 +323,7 @@ a:hover{
 }
 
 .company-presentation1{
-    margin-top: 50px;
+    margin-top: 35px;
     grid-area: presentation1;
     /* background-color:  rgb(238, 238, 238); */
     background-color: #fefefe;
@@ -330,8 +339,8 @@ a:hover{
 #pres-text{
     z-index: 2;
     width: 1000px;
-    height: 340px;
-    line-height: 22px;
+    height: auto;
+    line-height: 25px;
     font-size: 19px;
 }
 
@@ -400,6 +409,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 22px;
 }
 
 #pres-phase1, #pres-phase2, #pres-phase3:hover{
@@ -780,6 +790,10 @@ a:hover{
     width: 100%;
 }
 
+.contact-section p{
+    font-size: 19px;
+}
+
 
 #contact-header{
     z-index: 2;
@@ -1046,6 +1060,10 @@ input[type=number]::-webkit-outer-spin-button {
        display: flex;
    }
 
+   .nav-burger:hover{
+       cursor: pointer;
+   }
+
    /* .navIcon{
        display: block;
    } */
@@ -1064,7 +1082,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .mtextInside1, .mtextInside2, .mtextInside3{
-        font-size: 19px;
+        font-size: 20px;
         line-height: 20px;
         z-index: 4;
     }
@@ -1086,12 +1104,6 @@ input[type=number]::-webkit-outer-spin-button {
     
 }
 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-  
-
-}
 
 
 @media only screen and (max-width: 1000px) {
@@ -1225,7 +1237,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1215px) {
 
     .main{
