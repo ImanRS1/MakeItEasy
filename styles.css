@@ -493,7 +493,6 @@ a:hover{
 
 .client-section{
     grid-area: client;
-    /* background-color: rgb(238, 238, 238); */
     background-color: #fefefe;
     height: 800px;
     margin-top: 50px;
@@ -875,7 +874,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer-container{
-    width: 1200px;                   /*  FIXA DETTA */
+    width: 1200px;                   
     margin: 0 auto;
     height: 100%;
     display: flex;
@@ -892,9 +891,6 @@ input[type=number]::-webkit-outer-spin-button {
 #footerC-details{
     font-weight: normal;
     color: royalblue;
-}
-
-#socialMedia-Container{
 }
 
 .footer-icon{
@@ -921,17 +917,16 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: end;
 }
 
-/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
 
 }
@@ -1000,13 +995,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 28px !important;
     width: 290px;
     margin: 0;
-    }
-
-   /*  #header-icon{
-        width: 300px;
-        height: 300px;
-    } */
-    
+    }    
 }
 
 @media only screen and (max-width: 690px) {
@@ -1191,48 +1180,36 @@ input[type=number]::-webkit-outer-spin-button {
 
     #wCloud1{
         z-index: 16;
-    /*  bottom: -350px;
-        left: -100px; */
         bottom: -50vh;
         left: -5vw;
     }
 
     #wCloud2{    
         z-index: 16;
-    /*  top: 40px;
-        left: -550px; */
         top: 35vh;
         left: -47vw; 
     }
 
     #wCloud3{    
         z-index: 3;
-        /* bottom: -490px;
-        right: -120px; */
         bottom: -65vh;
         right: -28vw;
     }
 
     #wCloud4{
         z-indeX: 3;
-        /* bottom: -400px;
-        left: -400px; */
         bottom: -55vh;
         left: -55vw;
     }
 
     #gCloud1{ 
         z-index: 2;
-    /*  top: 200px;
-        left: -350px; */
         top: 43vh;
         left: -29vw;
     }
 
     #gCloud2{ 
         z-index: 2;
-        /* top: 450px;
-        right: 250px; */
         
 
         right: -20vw;
@@ -1241,15 +1218,12 @@ input[type=number]::-webkit-outer-spin-button {
 
     #lgCloud1{
         z-index: 1;
-        /* right: -550px;
-        bottom: -450px; */
         top: 65vh;
         right: -45vw;
     }
 
     #lgCloud2{
         z-index: 1;
-        /* bottom: -350px; */
         bottom: -44vh;
     }
 }
