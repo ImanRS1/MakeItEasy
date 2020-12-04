@@ -412,9 +412,6 @@ a:hover{
     font-size: 22px;
 }
 
-#pres-phase1, #pres-phase2, #pres-phase3:hover{
-    cursor: pointer;
-}
 
 #phase1-inside-pic{
     width: 66px;
