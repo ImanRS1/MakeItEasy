@@ -113,6 +113,11 @@ a:hover{
     color: black;
 }
 
+#middle-burger-opt{
+    border-bottom: none;
+    border-top: none;
+}
+
 .burger-menu li:hover{
     color: rgb(20, 97, 164);
 }
