@@ -581,6 +581,7 @@ a:hover{
     font-size: 22px;
     background-color: rgba(0, 0, 0, 0.8);
     line-height: 30px;
+    border-radius: 15px;
 }
 
 .textInside1{
@@ -634,6 +635,7 @@ a:hover{
 }
 .websiteAdress1:hover, .websiteAdress2:hover, .websiteAdress3:hover{
     background-color: rgba(20, 97, 164, 0.9);
+    cursor: pointer;
 }
 
 .websiteAdress2{
@@ -702,6 +704,7 @@ a:hover{
     font-size: 22px;
     background-color: rgba(0, 0, 0, 0.8);
     line-height: 30px;
+    border-radius: 15px;
 }
 
 .mtextInside1{
@@ -726,6 +729,7 @@ a:hover{
 }
 .mwebsiteAdress1:hover, .mwebsiteAdress2:hover, .mwebsiteAdress3:hover{
     background-color: rgba(20, 97, 164, 0.9);
+    cursor: pointer;
 }
 
 .mtextInside2{
@@ -1006,6 +1010,9 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 3px 10px;
         left: 0;
         box-sizing: border-box;
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 
     #pres-logo{
