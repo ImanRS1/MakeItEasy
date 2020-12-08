@@ -9,9 +9,8 @@ html,body{
 }
 
 body{
-    background-color: rgba(240, 235, 235); /* //rgb(224, 224, 224);  rgb(35, 80, 148); */
+    background-color: rgba(240, 235, 235); 
     background-color: #fefefe;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
     font-family: ubuntu; 
     background-image: url("images/background-pic2.png");
     background-repeat: no-repeat;
@@ -142,9 +141,6 @@ a:hover{
     font-size: 22px;
     padding: 5px;
     color: white;
-    /* 
-    border-radius: 25px;   
-    background-color: rgb(252, 247, 247); */
 }
 
 .nav li:hover{
@@ -160,63 +156,48 @@ a:hover{
 
 #wCloud1{
     z-index: 16;
-   /*  bottom: -350px;
-    left: -100px; */
     bottom: -50vh;
     left: -5vw;
 }
 
 #wCloud2{    
     z-index: 16;
-   /*  top: 40px;
-    left: -550px; */
     top: 10vh;
     left: -37vw; 
 }
 
 #wCloud3{    
     z-index: 3;
-    /* bottom: -490px;
-    right: -120px; */
     bottom: -65vh;
     right: -6vw;
 }
 
 #wCloud4{
     z-indeX: 3;
-    /* bottom: -400px;
-    left: -400px; */
     bottom: -55vh;
     left: -55vw;
 }
 
 #gCloud1{ 
     z-index: 2;
-   /*  top: 200px;
-    left: -350px; */
     top: 33vh;
     left: -19vw;
 }
 
 #gCloud2{ 
     z-index: 2;
-    /* top: 450px;
-    right: 250px; */
     top: 65vh;
     right: 15vw;
 }
 
 #lgCloud1{
     z-index: 1;
-    /* right: -550px;
-    bottom: -450px; */
     right: -30vw;
     bottom: -69vh;
 }
 
 #lgCloud2{
     z-index: 1;
-    /* bottom: -350px; */
     bottom: -48vh;
 }
 
@@ -257,7 +238,6 @@ a:hover{
                     "contact" auto/ 1fr;
     opacity: 0.98;
     background-color: #fefefe;
-    /* background-color: rgb(238, 238, 238);    */ 
 }   
 
 
@@ -331,7 +311,6 @@ a:hover{
 .company-presentation1{
     margin-top: 35px;
     grid-area: presentation1;
-    /* background-color:  rgb(238, 238, 238); */
     background-color: #fefefe;
     position: relative;
     height: auto;
@@ -375,14 +354,8 @@ a:hover{
     width: 200px;
 }
 
-
-/* #pres-phase-pic{
-    margin-left: 35px;
-}
- */
 .company-presentation2{
     grid-area: presentation2;
-    /* background-color: rgb(238, 238, 238); */
     background-color: #fefefe;
 }
 
@@ -877,7 +850,7 @@ input[type=number]::-webkit-outer-spin-button {
     grid-area: footer;
     height: 250px;
     width: 100%;
-    background-color: rgb(238, 238, 238);  /* rgb(219, 216, 216); */
+    background-color: rgb(238, 238, 238);
 }
 
 .footer-container{
@@ -925,18 +898,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-@media only screen and (max-width: 600px) {
-
-}
-
-@media only screen and (min-width: 600px) {
-
-}
-
-
-@media only screen and (min-width: 768px) {
-
-}
 
 @media only screen and (max-width: 460px) {
     #pres-header{
@@ -1064,8 +1025,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
 
-   /*  HAMBURGAR MENY HÄR */
-
    .navField{
        background-color: rgb(132, 196, 255);
    }
@@ -1080,10 +1039,6 @@ input[type=number]::-webkit-outer-spin-button {
    .nav-burger:hover{
        cursor: pointer;
    }
-
-   /* .navIcon{
-       display: block;
-   } */
 
    .navContainer{
        width: 100%;
@@ -1220,8 +1175,6 @@ input[type=number]::-webkit-outer-spin-button {
 
     #gCloud2{ 
         z-index: 2;
-        
-
         right: -20vw;
         bottom: -59vh;
     }
