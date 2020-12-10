@@ -990,7 +990,13 @@ input[type=number]::-webkit-outer-spin-button {
         height: 300px !important;
     }
 
-    
+    .client-sec-mobile{
+        border-bottom: solid rgb(238, 238, 238) 2px;
+    }
+
+    #last-csm{
+        border-bottom: none;
+    }
 
 
     #case-Teaser{
