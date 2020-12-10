@@ -902,219 +902,39 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+/* HÄR */
 
-@media only screen and (max-width: 460px) {
-    #pres-header{
-        text-align: center;
-    }
-
-    .mwebsiteAdress1, .mwebsiteAdress3, .mwebsiteAdress2{
-        top: 30px;
-        padding: 15px 5px !important;
-    }    
-}
-
-
-
-@media only screen and (max-width: 560px) {
-
-    
-    #case-Teaser{
-        font-size: 18px !important;
-        width: 290px !important;
-    } 
-
-
-}
-
-
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 1280px) {
     
 
-    .mwebsiteAdress1, .mwebsiteAdress2, .mwebsiteAdress3{      
-        font-size: 19px;    
+    .footer-container{
+        width: auto;
+        padding: 0 10px;
     }
 
-    .mwebsiteAdress1, .mwebsiteAdress3{
-        padding: 25px 20px;
-    }
-    
 }
 
+@media only screen and (max-width: 1215px) {
 
-@media only screen and (max-width: 655px) {
-   .footer-container{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-   }
-   .support-details{
-       text-align: center;
-       margin-bottom: 10px;
-   }
-   .contact-details{
-       text-align: center;
-   }
-   .footer{
-       height: auto;
-   }
-
-   #footerC-header{
-       margin-top: 0;
-   }
-
-   #logo-header{
-    font-size: 28px !important;
-    width: 290px;
-    margin: 0;
-    }    
-}
-
-@media only screen and (max-width: 690px) {
-    .mtextInside1, .mtextInside2, .mtextInside3{
-        font-size: 19px;
-        line-height: 20px;
-        position: relative;
-        bottom: 50px;
-        width: 100%;
-        padding: 3px 10px;
-        left: 0;
-        box-sizing: border-box;
-        border-radius: 0;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
+    body{
+        background-image: none;
     }
-
-    #pres-logo{
-        width: 800px !important;
-        height: 300px !important;
-    }
-
-    .client-sec-mobile{
-        border-bottom: solid rgb(238, 238, 238) 2px;
-    }
-
-    #last-csm{
-        border-bottom: none;
-    }
-
-
-    #case-Teaser{
-        bottom: -50px;
-    }
-    
-    .contact-section{
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-
-    .contact-container{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "cContainerLeft" 
-                            "cContainerRight";
-    }
-    
-    .contact-section{
-        height: auto;
-        margin-bottom: 15px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-
-    .pres-pics{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #pres-logo{
-        width: 1200px;
-    }
-
-
-   .navField{
-       background-color: rgb(132, 196, 255);
-   }
-   .nav{
-       display: none;
-   }
-
-   .nav-burger{
-       display: flex;
-   }
-
-   .nav-burger:hover{
-       cursor: pointer;
-   }
-
-   .navContainer{
-       width: 100%;
-   }
-}
-
-
-@media only screen and (max-width: 817px) {
-
-    .client-sec-mobile{
-        height: auto;
+    .main{
         width: auto;
     }
 
-    .mtextInside1, .mtextInside2, .mtextInside3{
-        font-size: 20px;
-        line-height: 20px;
-        z-index: 4;
+    .header-nav ul{    
+        margin-right: 50px;
     }
 
-    #case-Teaser{
-        font-size: 22px;
-        width: 450px;
-        padding: 0px 10px;
-    }
 
-    #logo-header{
-        font-size: 29px;
-        width: 300px;
-    }
-
-    .quoteMark{
-        font-size: 22px;
+    .next{
+        right: -42px;
     }
     
-}
-
-
-
-@media only screen and (max-width: 1000px) {
-    #pres-logo{
-        height: 100%;
+    .prev{
+        right: 1000px;
     }
-}
-
-
-@media only screen and (max-width: 1110px) {
-
-    .clientCase-Container{
-        display: none;
-    }
-
-    .client-sec-mobile{
-        display: block;
-    }
-
-    .client-section{
-        height: auto;
-    }
-
-    #pres-text{     
-        width: auto;
-        height: auto;
-        padding: 0 15px;
-    }
-  
 
 }
 
@@ -1202,36 +1022,233 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-@media only screen and (max-width: 1215px) {
 
-    body{
-        background-image: none;
+@media only screen and (max-width: 1110px) {
+
+    .clientCase-Container{
+        display: none;
     }
-    .main{
+
+    .client-sec-mobile{
+        display: block;
+    }
+
+    .client-section{
+        height: auto;
+    }
+
+    #pres-text{     
         width: auto;
+        height: auto;
+        padding: 0 15px;
     }
-
-    .header-nav ul{    
-        margin-right: 50px;
-    }
-
-
-    .next{
-        right: -42px;
-    }
-    
-    .prev{
-        right: 1000px;
-    }
+  
 
 }
 
-@media only screen and (max-width: 1280px) {
-    
+@media only screen and (max-width: 1000px) {
+    #pres-logo{
+        height: 100%;
+    }
+}
 
+
+@media only screen and (max-width: 817px) {
+
+    .client-sec-mobile{
+        height: auto;
+        width: auto;
+    }
+
+    .client-section{
+        height: auto;
+    }
+
+    .mtextInside1, .mtextInside2, .mtextInside3{
+        font-size: 20px;
+        line-height: 20px;
+        z-index: 4;
+    }
+
+    #case-Teaser{
+        font-size: 22px;
+        width: 450px;
+        padding: 0px 10px;
+    }
+
+    #logo-header{
+        font-size: 29px;
+        width: 300px;
+    }
+
+    .quoteMark{
+        font-size: 22px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+
+    .pres-pics{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pres-logo{
+        width: 1200px;
+    }
+
+
+   .navField{
+       background-color: rgb(132, 196, 255);
+   }
+   .nav{
+       display: none;
+   }
+
+   .nav-burger{
+       display: flex;
+   }
+
+   .nav-burger:hover{
+       cursor: pointer;
+   }
+
+   .navContainer{
+       width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    .contact-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "cContainerLeft" 
+                            "cContainerRight";
+    }
+    
+    .contact-section{
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 690px) {
+    .mtextInside1, .mtextInside2, .mtextInside3{
+        font-size: 19px;
+        line-height: 20px;
+        position: relative;
+        bottom: 50px;
+        width: 100%;
+        padding: 3px 10px;
+        left: 0;
+        box-sizing: border-box;
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    #pres-logo{
+        width: 800px;
+        height: 300px;
+    }
+
+    .client-sec-mobile{
+        border-bottom: solid rgb(238, 238, 238) 2px;
+    }
+
+    .client-sec-mobile img{
+        height: auto !important;
+    }
+
+    #last-csm{
+        border-bottom: none;
+    }
+
+
+    #case-Teaser{
+        bottom: -50px;
+    }
+    
+    .contact-section{
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 655px) {
     .footer-container{
-        width: auto;
-        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .support-details{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .contact-details{
+        text-align: center;
+    }
+    .footer{
+        height: auto;
+    }
+ 
+    #footerC-header{
+        margin-top: 0;
+    }
+ 
+    #logo-header{
+     font-size: 28px;
+     width: 290px;
+     margin: 0;
+     }    
+ }
+
+
+ 
+ 
+ 
+ @media only screen and (max-width: 585px) {
+    
+
+    .mwebsiteAdress1, .mwebsiteAdress2, .mwebsiteAdress3{      
+        font-size: 19px;    
     }
 
+    .mwebsiteAdress1, .mwebsiteAdress3{
+        padding: 25px 20px;
+    }
+    
 }
+
+@media only screen and (max-width: 560px) {
+    #case-Teaser{
+        font-size: 18px;
+        width: 290px;
+    } 
+}
+
+@media only screen and (max-width: 460px) {
+    #pres-header{
+        text-align: center;
+    }
+
+    .mwebsiteAdress1, .mwebsiteAdress3, .mwebsiteAdress2{
+        top: 30px;
+        padding: 15px 5px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
