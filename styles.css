@@ -445,8 +445,20 @@ a:hover{
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
 }
-  
+
 .phase1-pic-animation{
+    animation: fadeInAndOut ease-out 5s infinite 0s;
+}
+
+.phase2-pic-animation{
+  animation: fadeInAndOut ease-in-out 5s infinite 2s;
+}
+
+.phase3-pic-animation{
+  animation: fadeInAndOut ease-in-out 5s infinite 4s;
+}
+  
+/* .phase1-pic-animation{
       animation: fadeInAndOut ease-out 5s infinite 0s;
 }
 
@@ -456,7 +468,7 @@ a:hover{
 
 .phase3-pic-animation{
     animation: fadeInAndOut ease-in-out 5s infinite 3.5s;
-}
+} */
 
   @keyframes fadeInAndOut{
     0% {
@@ -466,7 +478,7 @@ a:hover{
         opacity: 1;
     }  
     33.3333% {
-        opacity: 0.2;
+        opacity: 0;
       }
 }
 
