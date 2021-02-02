@@ -126,7 +126,7 @@ a:hover{
 }
 
 .BM-animation-on ul{
-    animation: BM-Animation-UL ease-out 0.5s forwards;
+    animation: BM-Animation-UL ease-out 1s forwards;
 }
 
 .BM-animation-on li{
@@ -135,12 +135,14 @@ a:hover{
 
 @keyframes BM-Animation-UL{
     0%{
-        clip-path: inset(0 0 100% 100%);
+        /* clip-path: inset(0 0 100% 100%); */
+        clip-path: circle(0% at 100% 0%);
     }
     50%{
     }
     100%{
-        clip-path: inset(0 0 0 0);
+        /* clip-path: inset(0 0 0 0); */
+        clip-path: circle(100% at 50% 50%);
     }
 }
 
@@ -152,7 +154,6 @@ a:hover{
         color: transparent;
     }
     100%{
-        display: block;
         color: black;
     }
 }

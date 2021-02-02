@@ -4,7 +4,7 @@ var scrolled = false;
 
 window.onscroll = function() {
   scrolled = true;
-  var windowHeight = window.innerHeight;
+  var windowHeight = window.innerHeight - 10;
   var windowWidth = window.innerWidth;
 
   if(window.scrollY > windowHeight){
@@ -43,6 +43,9 @@ function burgerClick(){
   var burgerMenu = document.getElementsByClassName("burger-menu");
   var navIcon = document.getElementsByClassName("nav-burger");
   var bmAnimation = document.getElementsByClassName("burger-menu-animation");
+
+  const testtt = bmAnimation.classList;
+  console.log(testtt);
 
   if(burgerMenu[0].style.display == "block"){
     burgerMenu[0].style.display = "none";
