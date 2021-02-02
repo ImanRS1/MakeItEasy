@@ -91,14 +91,13 @@ a:hover{
     z-index: 99;
     position: fixed;
     top: 50px;
-    left: 0px;
     width: 100%;
-    display: none;    
+    display: none;   
 }
 .burger-menu ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 .burger-menu li{    
@@ -109,7 +108,8 @@ a:hover{
     padding: 10px;
     font-size: 22px;
     color: black;
-    height: 100px;
+    height: 80px;
+    width: 100%;
 }
 
 #middle-burger-opt{
@@ -125,6 +125,37 @@ a:hover{
     color: rgb(20, 97, 164);
 }
 
+.BM-animation-on ul{
+    animation: BM-Animation-UL ease-out 0.5s forwards;
+}
+
+.BM-animation-on li{
+    animation: BM-Animation-LI ease-out 1s forwards;
+}
+
+@keyframes BM-Animation-UL{
+    0%{
+        clip-path: inset(0 0 100% 100%);
+    }
+    50%{
+    }
+    100%{
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes BM-Animation-LI{
+    0%{
+        color: transparent;
+    }
+    50%{
+        color: transparent;
+    }
+    100%{
+        display: block;
+        color: black;
+    }
+}
 
 
 
