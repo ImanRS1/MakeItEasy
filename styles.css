@@ -125,15 +125,15 @@ a:hover{
     color: rgb(20, 97, 164);
 }
 
-.BM-animation-on ul{
-    animation: BM-Animation-UL ease-out 1s forwards;
+.BM-animation-open ul{
+    animation: BM-Animation-Open-UL ease-out 1s forwards;
 }
 
-.BM-animation-on li{
-    animation: BM-Animation-LI ease-out 1s forwards;
+.BM-animation-open li{
+    animation: BM-Animation-Open-LI ease-out 1s forwards;
 }
 
-@keyframes BM-Animation-UL{
+@keyframes BM-Animation-Open-UL{
     0%{
         /* clip-path: inset(0 0 100% 100%); */
         clip-path: circle(0% at 100% 0%);
@@ -146,7 +146,7 @@ a:hover{
     }
 }
 
-@keyframes BM-Animation-LI{
+@keyframes BM-Animation-Open-LI{
     0%{
         color: transparent;
     }
@@ -158,6 +158,37 @@ a:hover{
     }
 }
 
+
+.BM-animation-close ul{
+    animation: BM-Animation-Close-UL ease-out 1s forwards;
+}
+
+.BM-animation-close li{
+    animation: BM-Animation-Close-LI ease-out 1s forwards;
+}
+
+@keyframes BM-Animation-Close-UL{
+    0%{
+        clip-path: circle(100% at 50% 50%);
+    }
+    50%{
+    }
+    100%{
+        clip-path: circle(0% at 100% 0%);
+    }
+}
+
+@keyframes BM-Animation-Close-LI{
+    0%{
+        color: black;
+    }
+    50%{
+        color: transparent;
+    }
+    100%{
+        color: transparent;
+    }
+}
 
 
 

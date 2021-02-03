@@ -42,18 +42,25 @@ document.addEventListener("click", function(evt) {
 function burgerClick(){
   var burgerMenu = document.getElementsByClassName("burger-menu");
   var navIcon = document.getElementsByClassName("nav-burger");
-  var bmAnimation = document.getElementsByClassName("burger-menu-animation");
-
-  const testtt = bmAnimation.classList;
-  console.log(testtt);
+  var bmAnimation = document.getElementById("burger-menu-animation"); 
 
   if(burgerMenu[0].style.display == "block"){
-    burgerMenu[0].style.display = "none";
-    navIcon[0].innerHTML = "&#9776;"
+    if(bmAnimation.classList.contains("BM-animation-open")){
+      bmAnimation.classList.remove("BM-animation-open");
+    }
+    bmAnimation.classList.add("BM-animation-close");
+    setTimeout(function(){ 
+      console.log("nu");
+      burgerMenu[0].style.display = "none";
+      navIcon[0].innerHTML = "&#9776;";
+     }, 1000);
   }else{    
     burgerMenu[0].style.display = "block";
     navIcon[0].innerHTML = "&#10006;"
-  /*   bmAnimation.classList.add("BM-animation"); */
+    if(bmAnimation.classList.contains("BM-animation-close")){
+      bmAnimation.classList.remove("BM-animation-close");
+    }
+    bmAnimation.classList.add("BM-animation-open");
   }
 }
 
