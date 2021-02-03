@@ -38,7 +38,6 @@ document.addEventListener("click", function(evt) {
 });
 
 
-
 function burgerClick(){
   var burgerMenu = document.getElementsByClassName("burger-menu");
   var navIcon = document.getElementsByClassName("nav-burger");
