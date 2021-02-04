@@ -32,16 +32,20 @@ document.addEventListener("click", function(evt) {
       if(targetElement.classList.contains("navClick")){
         burgerClick();
       }else{
-        document.getElementsByClassName("burger-menu")[0].style.display = "none";
-        navIcon[0].innerHTML = "&#9776;"
+        bmAnimation.classList.add("BM-animation-close");
+        setTimeout(function(){ 
+          document.getElementsByClassName("burger-menu")[0].style.display = "none";
+          navIcon[0].innerHTML = "&#9776;"
+         }, 1000);
+        
       }
 });
 
+var bmAnimation = document.getElementById("burger-menu-animation"); 
 
 function burgerClick(){
   var burgerMenu = document.getElementsByClassName("burger-menu");
   var navIcon = document.getElementsByClassName("nav-burger");
-  var bmAnimation = document.getElementById("burger-menu-animation"); 
 
   if(burgerMenu[0].style.display == "block"){
     if(bmAnimation.classList.contains("BM-animation-open")){
@@ -49,7 +53,6 @@ function burgerClick(){
     }
     bmAnimation.classList.add("BM-animation-close");
     setTimeout(function(){ 
-      console.log("nu");
       burgerMenu[0].style.display = "none";
       navIcon[0].innerHTML = "&#9776;";
      }, 1000);
