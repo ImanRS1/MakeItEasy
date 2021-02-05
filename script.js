@@ -1,11 +1,8 @@
-
-
 var scrolled = false;
 
 window.onscroll = function() {
   scrolled = true;
   var windowHeight = window.innerHeight - 10;
-  var windowWidth = window.innerWidth;
 
   if(window.scrollY > windowHeight){
     document.getElementsByClassName("navField")[0].style.background = "rgb(20, 97, 164)";
