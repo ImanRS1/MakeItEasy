@@ -859,6 +859,7 @@ a:hover {
   background-color: rgb(20, 97, 164);
   border-radius: 5px;
   padding: 2px 5px;
+  white-space: nowrap;
 }
 
 #contact-header {
