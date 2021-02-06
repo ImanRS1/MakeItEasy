@@ -1107,6 +1107,20 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 
+@media only screen and (max-width: 870px) {
+  .pres-pics {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  #pres-phase1,
+  #pres-phase2,
+  #pres-phase3 {
+    margin-top: 35px;
+  }
+}
+
 @media only screen and (max-width: 817px) {
   .client-sec-mobile {
     height: auto;
@@ -1142,19 +1156,6 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 800px) {
-    .pres-pics {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #pres-phase1,
-    #pres-phase2,
-    #pres-phase3 {
-        margin-top: 35px;
-    
-    }
-  }
-
   #pres-logo {
     width: 1200px;
   }
