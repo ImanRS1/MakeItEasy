@@ -417,7 +417,7 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #pres-number-pic {
@@ -539,7 +539,7 @@ a:hover {
   grid-area: client;
   background-color: #fefefe;
   height: 800px;
-  margin-top: 15px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -723,6 +723,10 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.2;
+}
+
+#first-client-sec-mobile {
+  margin-top: 10px;
 }
 
 .client-sec-mobile {
