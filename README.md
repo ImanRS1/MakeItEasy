@@ -1,5 +1,5 @@
-An app like music player with minimalistic styling, easy to use and easy to like.
+This website was created as part of my studies at Changemaker Educations. 
 
-The website was created using React, JS (ES6), HTML5 and SCSS with imported fontawesome icons.
+It is a website of a made believe web development company targeting smaller sized businesses.
 
 https://imanrs1.github.io/MakeItEasy/
